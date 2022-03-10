@@ -1,0 +1,16 @@
+<view class="title1">个人信息</view>
+<view class="pinformation">
+  <l-list title="性别" is-link="{{true}}"icon="user" />
+  <l-list title="院校" is-link="{{true}}" icon="address" />
+  <l-list title="个性签名" is-link="{{true}}" icon="comment" />
+</view>
+<view class="title2">其他</view>
+<view class="other">
+  <l-list title="检查更新" is-link="{{true}}"icon="warning" />
+  <l-list title="关于我们" is-link="{{true}}" icon="order" />
+</view>
+<text>\n</text>
+<text>\n</text>
+<view class="log-out">
+  <l-button width="500" height="80" type="default">退出登陆</l-button>
+</view>

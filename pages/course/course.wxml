@@ -1,0 +1,110 @@
+<view class="body">
+  <view class="head">课程</view>
+  <view class="list-wrap">
+    <scroll-view scroll-y="true" class="list">
+      <view class="list-scroll-view">
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix" ></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+        <!-- 分割线 -->
+        <view class="divLine"></view>
+
+        <view class="course-card" bindtap="gotomath">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqRwdID*hQdPc2.a058YZzR3Dr5CVVA5Ws3iyMAtVar16xmAHX2B6nE8r6NRl57CLKKBpRS.N*T5eJJduoNSlhAo!/mnull&bo=YgLJAQAAAAADB4o!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">高等数学</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+        <!-- 分割线 -->
+        <view class="divLine"></view>
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+           <!-- 分割线 -->
+           <view class="divLine"></view>
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+           <!-- 分割线 -->
+           <view class="divLine"></view>
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+           <!-- 分割线 -->
+           <view class="divLine"></view>
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+           <!-- 分割线 -->
+           <view class="divLine"></view>
+        <view class="course-card" bindtap="gotocatalog">
+          <view>
+            <image src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="heightFix"></image>
+          </view>
+          <view class="card-content">
+            <view class="course-item">电路</view>
+
+            <l-progress class="progress" percent="20" stroke-width='12' active-color="green" show-info="{{true}}" text-color='green' interval="{{25}}">
+
+            </l-progress>
+          </view>
+        </view>
+
+
+      </view>
+    </scroll-view>
+  </view>
+
+
+</view>

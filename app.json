@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/home/firstpage/firstpage",
+    "pages/circuit catalog/four one",
+    "pages/course/course",
+    "pages/MY/MY",
+    "pages/circuit catalog/circuit catalog",
+    "pages/circuit catalog/six one",
+    "pages/circuit catalog/one one",
+    "pages/circuit catalog/two one",
+    "pages/circuit catalog/three one",
+    "pages/circuit catalog/seven one",
+    "pages/circuit catalog/eight one",
+    "pages/circuit catalog/nine one",
+    "pages/circuit catalog/ten one",
+    "pages/circuit catalog/eleven one",
+    "pages/circuit catalog/twelve one",
+    "pages/circuit catalog/four two",
+    "pages/circuit catalog/one two",
+    "pages/circuit catalog/two two",
+    "pages/circuit catalog/three two",
+    "pages/circuit catalog/five two",
+    "pages/circuit catalog/six two",
+    "pages/circuit catalog/seven two",
+    "pages/circuit catalog/eight two",
+    "pages/circuit catalog/nine two",
+    "pages/circuit catalog/ten two",
+    "pages/circuit catalog/eleven two",
+    "pages/circuit catalog/twelve two",
+    "pages/Advanced mathematics/Advanced mathematics"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/firstpage/firstpage",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-b.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "icons/book.png",
+        "selectedIconPath": "icons/book-b.png"
+      },
+      {
+        "pagePath": "pages/MY/MY",
+        "text": "我的",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user-butter.png"
+      }
+    ],
+    "selectedColor": "#2bb0b4",
+    "borderStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

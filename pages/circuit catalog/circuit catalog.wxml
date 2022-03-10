@@ -1,0 +1,139 @@
+<view class="body">
+
+<!-- <text class="fisrtcatalog" bindtap="gotofirstcontent">第一章 电路模型和电路定律</text>
+<text class="fisrtcatalog" bindtap="gotosecondcontent">第二章 电阻电路的等效变换</text>
+<text class="fisrtcatalog" bindtap="gotothirdcontent">第三章 电阻电路的一般分析</text>
+<text class="fisrtcatalog" bindtap="gotofourcontent">第四章 电路定理</text>
+<text class="fisrtcatalog" bindtap="gotofivecontent">第五章 含有运算放大器的电阻电路</text>
+<text class="fisrtcatalog" bindtap="gotosixcontent">第六章 储能元件</text>
+<text class="fisrtcatalog" bindtap="gotosevencontent">第七章 一阶电路和二阶电路的时域分析</text> -->
+<l-collapse type="accordion">
+  <l-collapse-item title="第一章 电路模型和电路定律"class="firstcatalog">
+  <l-icon name="more" size="50" class="themore" bindtap="gotoone"></l-icon>
+  <View class="body">
+  <text class="firstcontent">&1-1 电路和电路模型</text>
+  <text class="firstcontent">&1-2 电功率和能量</text>
+  <text class="firstcontent">&1-3 电压源和电流源</text>
+  <text class="firstcontent">&1-4 受控电源</text>
+  <text class="firstcontent">&1-5 基尔霍夫定律</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第二章 电阻电路的等效变换" class="firstcatalog">
+  <view class="body">
+  <l-icon name="more" size="50" class="themore" bindtap="gototwo"></l-icon>
+  <text class="firstcontent">&2-1 电路的等效变换</text>
+  <text class="firstcontent">&2-2 电阻的串联和并联</text>
+  <text class="firstcontent">&2-3 电压源、电流源的串联和并联</text>
+  <text class="firstcontent">&2-4 实际电源的两种模型</text>
+  <text class="firstcontent">&2-5 输入电阻</text>
+  </view>
+  </l-collapse-item>
+
+  <l-collapse-item title="第三章 电阻电路的一般分析" class="firstcatalog">
+    <view class="body">
+  <l-icon name="more" size="50" class="themore" bindtap="gotothree"></l-icon>
+  <text class="firstcontent">&3-1 支路电流法</text>
+  <text class="firstcontent">&3-2 回路电流法</text>
+  <text class="firstcontent">&3-3 结点电压法</text>
+  </view>
+  </l-collapse-item>
+  <l-collapse-item title="第四章 电路定理" class="firstcatalog">
+    <l-icon name="more" size="50" class="themore" bindtap="gotofour"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&4-1 叠加定理</text>
+  <text class="firstcontent">&4-2 替代定理</text>
+  <text class="firstcontent">&4-3 戴维宁定理和诺顿定理</text>
+  <text class="firstcontent">&4-4 最大功率传输定理</text>
+  <text class="firstcontent">&4-5 特勒根定理</text>
+  <text class="firstcontent">&4-6 互易定理</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第五章 含有运算放大器的电阻电路" class="firstcatalog">
+  <l-icon name="more" size="50" class="themore" bindtap="gotofive"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&5-1 运算放大器</text>
+  <text class="firstcontent">&5-2 比列电路的分析</text>
+  <text class="firstcontent">&5-3 含有理想运算放大器的电路的分析</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第六章 储能元件" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gotosix"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&6-1 电容元件</text>
+  <text class="firstcontent">&6-2 电感元件</text>
+  <text class="firstcontent">&6-3 电容、电感元件的串联与并联</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第七章 一阶电路和二阶电路的时域分析" class="firstcatalog">
+    <l-icon name="more" size="50" class="themore" bindtap="gotoseven"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&7-1 一阶电路的零输入和零状态响应</text>
+  <text class="firstcontent">&7-2 一阶电路的全响应</text>
+  <text class="firstcontent">&7-3 二阶电路的零输入响应</text>
+  <text class="firstcontent" >&7-4 二阶电路的零状态响应和全响应</text>
+  <text class="firstcontent">&7-5 一阶电路和二阶电路的阶跃响应</text>
+  <text class="firstcontent">&7-6 二阶电路的冲激响应</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第八章 相量法" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gotoeight"></l-icon>
+  <View class="body">
+  <text class="firstcontent">&8-1 复数</text>
+  <text class="firstcontent">&8-2 正弦量</text>
+  <text class="firstcontent">&8-3 相量法的基础</text>
+  <text class="firstcontent">&8-4 电路定律的相量形式</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第九章 正弦稳态电路的分析" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gotonine"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&9-1 阻抗和导纳</text>
+  <text class="firstcontent">&9-2 电路的相量图</text>
+  <text class="firstcontent">&9-3 正弦稳态电路的分析</text>
+  <text class="firstcontent">&9-4 正弦稳态电路的功率</text>
+  <text class="firstcontent">&9-5 复功率</text>
+  <text class="firstcontent">&9-6 最大功率传输</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第十章 含有耦合电感的电路" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gototen"></l-icon>
+  <View class="body">
+  <text class="firstcontent">&10-1 互感</text>
+  <text class="firstcontent">&10-2 含有耦合电感电路的计算</text>
+  <text class="firstcontent">&10-3 耦合电感的功率</text>
+  <text class="firstcontent">&10-4 变压器原理</text>
+  <text class="firstcontent">&10-5 理想变压器</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第十一章 电路的频率响应" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gotoeleven"></l-icon>
+  <View class="body">
+  <text class="firstcontent" >&11-1 网络函数</text>
+  <text class="firstcontent">&11-2 RLC串联电路的谐振</text>
+  <text class="firstcontent">&11-3 RLC串联电路的频率响应</text>
+  <text class="firstcontent">&11-4 RLC并联谐振电路</text>
+  </View>
+  </l-collapse-item>
+
+  <l-collapse-item title="第十二章 三相电路" class="firstcatalog">
+   <l-icon name="more" size="50" class="themore" bindtap="gototwelve"></l-icon>
+  <View class="body">
+  <text class="firstcontent">&12-1 三相电路</text>
+  <text class="firstcontent">&12-2 线电压与相电压的关系</text>
+  <text class="firstcontent">&12-3 对称三相电路的计算</text>
+  <text class="firstcontent">&12-4 不对称三相电路的概念</text>
+  <text class="firstcontent">&12-5 三相电路的功率</text>
+  </View>
+  </l-collapse-item>
+
+
+</l-collapse>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/MY/MY.wxml-->
+<!-- <l-avatar size='160' class="naruto" open-data="{{['userAvatarUrl','userNickName']}}" /> -->
+<!-- <view class="naruto">
+  <open-data class="naruto" type="userAvatarUrl"></open-data>
+</view> -->
+<l-icon na class="l-setting" name="setting" size="50" color="#34BFA3"  bindtap="gotoset"/>
+<view class="card">
+  <image class="bg" src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqfPpd0LSzcQhwdaIUrIKU9fopBaoq2rCgRydzGfwKAzmLXv3bw0zGBb4Od7PTitDufADiIwO7Z.ZwVGPDAWaGcg!/mnull&bo=YgKPAQAAAAADB8w!&rf=photolist&t=5"></image>
+  <view class="naruto">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="name">
+    <open-data type="userNickName"></open-data>
+  </view>
+  <view class="information">
+    男 西安交通大学
+  </view>
+  <view class="l-sign">
+    努力奋斗，为世界之光！
+  </view>
+</view>
+<view class="course">
+  <view class="title">
+    加入的课程
+  </view>
+  <view class="list">
+    <view class="course-card" bindtap="gotocircuit">
+      <view>
+        <image class="circuit" src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqXaNnRihHH9AfChM**YT3Et5GvE1vYm.FPli3HeZgf7g61Leh2qYbj7FGzjM51I9mdKxvQ8ySviTr8NeiDWQQ0o!/mnull&bo=fAEdAQAAAAADB0M!&rf=photolist&t=5" mode="widthFix"></image>
+      </view>
+      <view class="circuittext">
+        电路
+      </view>
+    </view>
+    <view class="course-card" bindtap="gotomath">
+      <view>
+        <image class="math" src="https://m.qpic.cn/psc?/V13Luztg0ai2EF/bqQfVz5yrrGYSXMvKr.cqRwdID*hQdPc2.a058YZzR3Dr5CVVA5Ws3iyMAtVar16xmAHX2B6nE8r6NRl57CLKKBpRS.N*T5eJJduoNSlhAo!/mnull&bo=YgLJAQAAAAADB4o!&rf=photolist&t=5" mode="widthFix"></image>
+      </view>
+      <view class="mathtext">
+        高等数学
+      </view>
+    </view>
+  </view>
+</view>

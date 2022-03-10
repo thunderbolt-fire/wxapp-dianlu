@@ -1,0 +1,18 @@
+/* pages/Setting/Setting.wxss */
+.title1{
+  background-color: rgb(121, 122, 122);
+}
+.pinformation{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.other{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.title2{
+  background-color: rgb(121, 122, 122);
+}
+.log-out{
+  text-align: center;
+}

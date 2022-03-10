@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-collapse":"../../dist/collapse/index",
+    "l-collapse-item":"../../dist/collapse-item/index",
+    "l-icon":"../../dist/icon/index"
+  }
+}

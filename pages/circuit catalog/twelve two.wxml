@@ -1,0 +1,19 @@
+
+
+  <view class="content-info">
+  <towxml nodes="{{article}}"/>
+  </view> 
+
+<view class="sunormoon">
+  <view class="icon_sun" bindtap="gotosun">
+    <image src="../../icons/sun-black.png" mode="widthFix" >
+    </image>
+     <view class="haizi">Light</view>
+  </view>
+
+  <view  class="icon_moon" >
+    <image src="../../icons/moon-yellow.png" mode="widthFix" >
+    </image>
+    <view class="haizi">Dark</view>
+  </view>
+</view>

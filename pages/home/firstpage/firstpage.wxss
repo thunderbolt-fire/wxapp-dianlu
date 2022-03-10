@@ -1,0 +1,87 @@
+pege{
+  width: 100%;
+  height: 100%;
+}
+
+
+.home-body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.searchcion{
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left: 25rpx;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+
+.home-top{
+  font-weight: 20px;
+  text-align: center;
+  border: 4px solid #2bb0b4;
+}
+
+.wx-swiper-dots.wx-swiper-dots-horizontal {
+  top: 90%;
+}
+
+.home-lan
+{
+  text-align: center;
+  color: #2bb0b4;
+  margin-top: 20rpx;
+}
+
+.home-things
+{
+  margin-top: 20rpx;
+  margin-left: 47.5rpx;
+  margin-right: 47.5rpx;
+}
+
+.home-things-swi
+{
+  text-align: center;
+}
+
+home-things-pic
+{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.home-bottom{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.home-able
+{
+ flex-grow: 1;
+}
+
+.home-able-font
+{
+  color: #2bb0b4;
+  text-align: center;
+}
+
+.home-able-one{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 80rpx;
+  flex-wrap: wrap;
+}
+.home-but{
+  color: #2bb0b4;
+}

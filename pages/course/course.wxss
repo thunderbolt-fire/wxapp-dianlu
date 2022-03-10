@@ -1,0 +1,81 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* vw */
+}
+
+.head {
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-bottom-width: 4rpx;
+  border-bottom-color: rgb(213, 213, 213);
+  
+}
+
+.list-wrap {
+  flex-grow: 1;
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.list-scroll-view {
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+
+.course-card {
+  width: 100vw; /** 47 * 2 = 94 **/
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  /* margin: 10px; */
+}
+
+.course-card image {
+  
+  border-radius: 5px;
+  height: 200rpx;
+}
+
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  margin-left: 5vw;
+  width: 400rpx;
+}
+.course-item{
+  font-size: large;
+  font-weight: bold;
+  
+}
+.progress{
+  margin-bottom: 10rpx;
+}
+/*分割线样式*/
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+ }

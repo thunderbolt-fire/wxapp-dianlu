@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "towxml":"/towxml/towxml"}
+    ,
+    "navigationBarTextStyle": "white"
+    ,
+    "navigationBarBackgroundColor": "#000000"
+}

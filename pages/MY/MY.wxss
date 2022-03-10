@@ -1,0 +1,81 @@
+/* pages/MY/MY.wxss */
+.bg{
+  width: 703.125rpx;
+  height: 304.6875rpx;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  position: relative;
+}
+.naruto{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+}
+.name{
+  position: absolute;
+  left: 257.8125rpx;
+  top: 40rpx;
+  font-size: 20px;
+  font-weight: bold;
+}
+.information{
+  position: absolute;
+  left: 257.8125rpx;
+  top: 100rpx;
+}
+.l-setting{
+  position: relative;
+  left: 90%;
+}
+.l-sign{
+  position: relative;
+  bottom: 80rpx;
+  text-align: center;
+  font-style: italic;
+  color: rgb(13, 73, 31)
+}
+.card{
+  margin: 23.4375rpx;
+  margin-top: 5px;
+  position: relative;
+  top: 0;
+}
+.course{
+  position: relative;
+  top: -20px;
+}
+.title{
+  background-color: #2bb0b4;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.course-card{
+  width: 50%;
+  margin: 10px;
+  height: 70vh;
+}
+.list{
+  flex-grow: 1;
+  display: flex;
+}
+.circuittext{
+  text-align: center;
+}
+.course{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+.course-card image{
+  width: 100%;
+  border-radius: 5px;
+  height: 230rpx !important;
+}
+.mathtext{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+<view class="home-body">
+    <view class="home-top">
+      <icon class="searchcion" size="20" type="search"></icon>
+      <input type="text" placeholder="搜索" />
+  
+    </view>
+
+<view class="home-lan"></view>
+
+    <view class="home-things">
+      <view>
+        <swiper circular="{{true}}" indicator-dots="{{true}}"
+        autoplay interval="3000"
+        indicator-active-color="#2bb0b4">
+          <swiper-item wx:for="{{template}}" class="home-things-swi">
+            <view>
+              <image mode="widthFix" src="{{item.cover}}" class="home-things-pic"></image>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+
+
+  
+  
+    <view class="home-bottom">
+
+    </view>
+  
+  
+  </view>
